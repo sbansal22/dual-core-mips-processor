@@ -5,12 +5,12 @@
 #xdg-open https://softpedia-secure-download.com/dl/382c0bb581a99bbd0c9cd908bd84452c/5f9f6dc0/100178356/software/programming/Mars45.jar
 
 # Install Verilog
+cd ~
 sudo apt-get install autoconf -y
 sudo apt install gperf -y
 sudo apt-get install flex -y
 sudo apt-get install bison -y
 git clone git://github.com/steveicarus/iverilog.git
-cd ~
 cd iverilog
 git checkout --track -b v11-branch origin/v11-branch
 git pull
